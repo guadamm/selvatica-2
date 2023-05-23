@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__titulo">SELVÁTICA</h1>
+        <div class="header__logo">
+            <a href="../index.html"><img src="../img/logo-definitivo-selvatica.png" class="header__img" alt="logo"></a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li>
+                    <a class="header__link" href="../secciones/tipos.html">
+                        Tipos de plantas
+                    </a>
+                </li>
+                <li>
+                    <a class="header__link" href="../secciones/cuidados.html">
+                        Cuidados
+                    </a>
+                </li>
+                <li>
+                    <a class="header__link" href="../secciones/cursos.html">
+                        Cursos
+                    </a>
+                </li>
+                <li>
+                    <a class="header__link" href="../secciones/contacto.html">
+                        Contacto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="estilo__formulario">
+        <h2>Completa con tus datos y nos pondremos en contacto ❤🌿</h2>
+        <form action="">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <label for="surname">Apellido</label>
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <label for="mail">E-mail *</label>
+                <input type="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password">
+            </div>
+            <br>
+            <div>
+                <label for="pais">Nacionalidad</label>
+                <select name="pais id="">
+                    <option value="arg">Argentina</option>
+                    <option value="uru">Uruguaya</option>
+                    <option value="chi">Chilena</option>
+                    <option value="bra">Brasilera</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="newseltter">¿Desea recibir novedades?</label>
+                <input type="radio" name="newseltter" value="Sí">Sí
+                <input type="radio" name="newseltter" value="No">No
+            </div>
+            <br>
+            <div>
+                <label for="coment">¿Desea enviarnos un comentario?</label><br>
+                <textarea name="coment" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <h2 class="footer_titulo">SELVÁTICA</h2>
+        <div class="footer__container-img">
+            <img src="../img/logo-definitivo-selvatica.png" class="footer__img" alt="logo"></div>
+    </footer>
+</body>
+</html>
