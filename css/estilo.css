@@ -15,6 +15,7 @@
     "section5 section5 section5 section6 section6"
     "footer footer footer footer footer";
 }
+/*Comienza estilo Header*/
 .header, .footer { 
 grid-area: header; 
 background-color: rgb(58, 100, 76);
@@ -54,6 +55,8 @@ font-family: 'Times New Roman', Times, serif;
 color:rgb(133, 151, 141);
 font-weight: bold;
 }
+
+/*Estilos section*/
 .section{
 border: rgb(58, 100, 76) 3px solid;
 background-color: rgb(133, 151, 141);
@@ -82,12 +85,14 @@ border-radius: 10px;
 .section__text{
 padding: 10px;
 line-height: 1.5;
+font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 }
 .section__text2{
     padding: 20px;
     line-height: 3;
-    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     font-weight: 200;
 }
 .section1 { 
@@ -107,7 +112,8 @@ grid-area: section5;
 }  
 .section6 { 
 grid-area: section6;
-}  
+}
+/*Estilo footer*/  
 .footer { 
 grid-area: footer;
 font-family: 'Times New Roman', Times, serif; 
@@ -117,15 +123,15 @@ font-weight: bold;
 width: 50px;
 padding: 10px;
 }
-.carousel-slide{
-    padding-top: 50px;
-    padding-bottom: 100px;
-    width: 100px;
-    margin: auto;
+/*Estilo Seccion-Tipos*/
+.estilo__tipos{
+    background-color: rgb(133, 151, 141);
 }
+/*Estilo Formulario-Contacto*/
 .estilo__formulario{
     background-color: rgb(133, 151, 141);
 }
+/*Estilo cursos*/
 .container__cursos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -147,6 +153,7 @@ padding: 10px;
 
 .Curso3 {grid-area: Curso3;
 }
+/*Estilo Mapa-Dirección*/
 .mapa{
     position: relative;
     right: 60%;
@@ -155,6 +162,7 @@ padding: 10px;
     height: 500px;
     border-style: none;
 }
+/*Estilo Sección-redes*/
 .estilo__redes{
     background-color: rgb(133, 151, 141);
     display: flex;
@@ -163,16 +171,17 @@ padding: 10px;
 .estilo__facebook{
     text-align: center;
     width: 200px;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 .estilo__instagram{
     width: 250px;
+    padding-top: 122px;
 }
 .estilo__twitter{
     width: 200px;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 
 
