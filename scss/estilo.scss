@@ -1,0 +1,88 @@
+@import "index"
+@import "tipos"
+@import "redes"
+@import "contacto"
+@import "cursos"
+@import "direccion"
+
+/*media querie para tablet*/ /*falta direccion y redes*/
+@media screen and (max-width:768px){
+    .container{
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-template-areas:
+    "header header header header "
+    "section1 section1 section2 section2"
+    "section1 section1 section3 section3"
+    "section4 section4 section4 section4"
+    "section5 section5 section6 section6"
+    "footer footer footer footer";
+    }
+    .container__cursos{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "Curso1"
+    "Curso2"
+    "Curso3"
+    "footer";
+    }
+    .header{
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    }
+    .mapa{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+/*media querie para mobile*/ /*falta direccion y redes*/
+@media screen and (max-width:600px){
+    .container{
+        grid-template-columns:1fr ;
+        grid-template-areas:
+        "header"
+        "section1" 
+        "section2"
+        "section3"
+        "section4"
+        "section5"
+        "section6"
+        "footer";
+    }
+    .container__cursos{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "Curso1"
+        "Curso2"
+        "Curso3"
+        "footer";
+    }
+    .mapa{
+        width: 200px;
+        height: 125px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

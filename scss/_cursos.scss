@@ -1,0 +1,27 @@
+.container__cursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Curso1 Curso2 Curso3";
+    .section__text2{
+        padding: 20px;
+        line-height: 3;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .Curso1{
+        grid-area: Curso1;
+    }
+    
+    .Curso2{
+        grid-area: Curso2;
+    }
+    
+    .Curso3 {grid-area: Curso3;
+    }
+}

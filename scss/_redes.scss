@@ -1,0 +1,20 @@
+.estilo__redes{
+    background-color: $colorFondoClaro;
+    display: flex;
+    justify-content: space-around;
+    .estilo__facebook{
+        text-align: center;
+        width: 200px;
+        padding-bottom: 150px;
+        padding-top: 150px;
+    }
+    .estilo__instagram{
+        width: 250px;
+        padding-top: 122px;
+    }
+    .estilo__twitter{
+        width: 200px;
+        padding-bottom: 150px;
+        padding-top: 150px;
+    }
+}
