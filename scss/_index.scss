@@ -34,29 +34,29 @@ $colorFondoClaro: rgb(133, 151, 141)
                 width: 70px;
                 border-radius: 10%;
                 padding: 10px;
-                }
+            }
+        }
         .header__nav{
             padding: 10px;
-            }
-            .header__menu{
-                display: flex;
-                list-style-type: none;
-                padding: 10px;
-                }
-                .header__link{
-                    margin:10px;
-                    padding: 10px;
-                    border: 2px white solid;
-                    background-color: $colorFondo;
-                    text-decoration: none;
-                    color: white;
-                    font-family: 'Times New Roman', Times, serif;
-                    }
-                    .header__link:hover{
-                        color: $colorFondoClaro;
-                        font-weight: bold;
-                        }
-            }
+        }
+        .header__menu{
+            display: flex;
+            list-style-type: none;
+            padding: 10px;
+        }
+        .header__link{
+            margin:10px;
+            padding: 10px;
+            border: 2px white solid;
+            background-color: $colorFondo;
+            text-decoration: none;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .header__link:hover{
+            color: $colorFondoClaro;
+            font-weight: bold;
+        }
     }
     .section{
         border: $colorFondo 3px solid;
@@ -73,21 +73,22 @@ $colorFondoClaro: rgb(133, 151, 141)
             .section__nav{
                 text-decoration: none;
                 color: black;
-                }
             }
+        }
         .section__container-img{
             padding: 20px;
             .section__img{
                 width: 200px;
                 border-radius: 10px;
-                }
             }
+        }
         .section__text{
             padding: 10px;
             line-height: 1.5;
             font-family: 'Times New Roman', Times, serif;
             font-size: 20px;
-            }
+        }
+    }
     .section1 { 
         grid-area: section1;
     }
@@ -106,7 +107,6 @@ $colorFondoClaro: rgb(133, 151, 141)
     .section6 { 
         grid-area: section6;
     }
-        }
     .footer { 
         grid-area: footer;
         font-family: 'Times New Roman', Times, serif; 
